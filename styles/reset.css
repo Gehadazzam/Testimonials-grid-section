@@ -143,11 +143,14 @@ span {
     grid-column: 1fr;
     grid-row: 2;
   }
-  .jeanetteCardContainer h2 {
-    font-size: 1.6rem;
-  }
+
   .patricCardContiner {
     grid-column: 2 / span 2;
     grid-row: 2;
+  }
+}
+@media (min-width: 1400) {
+  .jeanetteCardContainer h2 {
+    font-size: 1.6rem;
   }
 }
