@@ -148,7 +148,7 @@ span {
     grid-row: 1 / span 2;
   }
   .kiraCardContainer span {
-    font-size: 16px;
+    font-size: 0.95rem;
   }
   .jeanetteCardContainer {
     grid-column: 1fr;
