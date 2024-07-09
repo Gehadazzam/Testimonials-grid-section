@@ -64,11 +64,11 @@ span {
   z-index: 3;
 }
 .dainelcardContoner::before {
-  content: ""; /* Empty content */
+  content: "";
   background: url(../images/bg-pattern-quotation.svg) no-repeat;
-  background-size: contain; /* or cover, depending on your needs */
+  background-size: contain;
   height: 140px;
-  width: 115px; /* Add width to maintain aspect ratio */
+  width: 115px;
   top: 0;
   z-index: 2;
   position: absolute;
@@ -131,7 +131,7 @@ span {
   }
   .dainelcardContoner::before {
     height: 200px;
-    width: 135px; /* Add width to maintain aspect ratio */
+    width: 135px;
     top: 0;
     margin-top: 73px;
     margin-left: 25%;
@@ -145,7 +145,7 @@ span {
     grid-row: 1 / span 2;
   }
   .kiraCardContainer span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .jeanetteCardContainer {
     grid-column: 1fr;
